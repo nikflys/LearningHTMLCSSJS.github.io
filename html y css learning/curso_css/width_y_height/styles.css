@@ -1,0 +1,15 @@
+div {
+    background: red;
+    width: 400px;
+    height: 300px;
+}
+
+input {
+    width: 90%; /* 90% del ancho de la caja q lo contiene*/
+    
+}
+
+form {
+    width:400px;
+}
+
