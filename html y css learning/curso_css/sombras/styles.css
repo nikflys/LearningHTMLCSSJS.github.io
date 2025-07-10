@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    background: radial-gradient(#fef614d1, #0308a3); /* Esto crea el fondo en colores gradientes funciona con background (background-image tmb creo), no con funciona con background-color*/
+}
+
+.box {
+    width: 280px;
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0 0 50px 0 #000d; /* Horizontal, vertical, blur, spread, color, */
+    padding:20px;
+    padding-top:10px; /* This adds padding to the box */
+    box-sizing: border-box; /* This makes the padding not increase the width and height of the box */
+    font-family: sans-serif;
+    color: #444;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+h2 {
+    text-shadow: 0 0 12px #f88;
+    color: rgb(255, 0, 0);
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+
+p {
+    list-style: none; /* This removes the bullet points from the list */
+    font-size: 14px;
+    line-height: 1.4; /* This increases the space between lines */
+    text-align: justify; /* This makes the text justified */
+    text-shadow: 0 0 5px #f88;
+    padding-top: 10px;
+}
+
+img {
+    width: 160px;
+    border-radius: 10%;
+    filter: drop-shadow(0 0 15px #000); /* Esto añade una sombra al borde de la imagen */
+
+}
